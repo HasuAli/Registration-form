@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registeration Form</title>
+    <style>
+      header{
+        margin: 0 auto;
+        text-align: center;
+      }
+      table{
+        margin:0 auto ;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body >
+    
+    <header>
+      <img src="saylani.png" alt="saylani walfare" /> <br/>
+    <h1>Saylani Online Academy</h1>
+    </header>
+
+    <form action="/action.php">
+      <table style="background-color:rgb(211, 211, 211)" >
+        
+        <tbody>
+          <th ><h2 style="text-align: center;">Student Registration Form</h2></th>
+          <tr>
+            <td>Name:</td>
+            <td>
+              <input
+                type="text"  placeholder="Name"size="30"  required="required"/>
+            </td>
+          </tr>
+          <br />
+          <tr>
+            <td>Father:</td>
+            <td>
+              <input
+                type="text" placeholder="Father Name"size="30" required="required"/>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Password:</td>
+            <td>
+              <input
+                type="password"   placeholder="Password"   size="30"   maxlength="8"  required="required" />
+            </td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td> <textarea type="Address" placeholder="Address" cols="30" rows="6" required="required" ></textarea></td>
+          </tr>
+          <tr>
+            <td>Gender: </td>
+            <td>Male <input type="radio" name="Gender" value="male" checked="checked" required="required">
+                Female <input type="radio" name="Gender" value="female" required="required"></td>
+          </tr>
+          <tr>
+            <td>Language:</td>
+            <td><input type="checkbox" value="Urdu" checked="checked" required="required"> Urdu
+                <input type="checkbox" value="English"  > English
+                <input type="checkbox" value="Urdu"  > Arabic
+                <input type="checkbox" value="Urdu"  > Chines
+            </td>
+          </tr>
+          <tr>
+            <td>DOB:</td>
+            <td><input type="date" placeholder="date" size="30" required="required"></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><input type="email" placeholder="Email ID" size="30" required="required"></td>
+          </tr>
+          <tr>
+            <td> City:</td>
+            <td> <select name="City" aria-placeholder="select your city" required="required">
+                <option value="Hyderabad" >Hyderabad</option>
+                <option value="Karachi" >Karachi</option>
+                <option value="Faisalabad" >Faisalabad</option>
+            </select></td>
+          </tr>
+            <tr>
+                <td>Hobbies:</td>
+              <td>  <select name="Hobbies" required="required">
+                    <option value="circket">Circket</option>
+                    <option value="Football" >Football</option>
+                    <option value="Hokey" >Hokey</option>
+                    <option value="Tennis" >Taniss</option>
+                </select>
+            </td>
+            </tr>
+
+            <tr>
+                <td>Picture Upload</td>
+                <td> <input type="file" name="Picture" required="required"> </td>
+                <td>    <input type="submit" value="Upload"></td>
+                
+            </tr>
+          
+            <tr  style="text-align: center;margin: 0 auto; ">
+            <td>
+              <button aria-required="true">
+            <a  style=" background: none; border: none; padding: 0;text-decoration: none;  color: rgb(18, 18, 24);"
+            href="page.html" >submit</a>
+              </button>
+            </td>
+            </tr>
+            
+        </tbody>
+      </table>
+    </form>
+    <a href="page.html"></a>
+  </body>
+</html>
